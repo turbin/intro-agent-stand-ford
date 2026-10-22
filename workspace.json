@@ -1,0 +1,15 @@
+{
+  "name": "03-intro-agent-stand-ford",
+  "version": "0.1.0",
+  "audience": "MBA",
+  "topic": "",
+  "school_requirements": "",
+  "ai_disclosure_policy": "",
+  "formatting_guidelines": [],
+  "default_backend": "claude-code",
+  "role_backends": {},
+  "max_tasks": 8,
+  "max_revisions": 1,
+  "timeout_seconds": 300,
+  "max_context_chars": 80000
+}

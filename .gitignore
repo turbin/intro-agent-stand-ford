@@ -1,0 +1,10 @@
+
+# MBA paper workspace: do not commit sensitive inputs automatically
+.paper-ai/.runtime/
+__pycache__/
+.env
+.env.*
+materials/private/
+*.key
+*.pem
+.DS_Store

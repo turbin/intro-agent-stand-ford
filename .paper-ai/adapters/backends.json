@@ -1,0 +1,47 @@
+{
+  "claude-code": {
+    "enabled": false,
+    "command": [
+      "claude",
+      "-p",
+      "--tools",
+      "",
+      "--strict-mcp-config",
+      "--mcp-config",
+      "{mcp}",
+      "--setting-sources",
+      "",
+      "--output-format",
+      "text"
+    ],
+    "response": "stdout"
+  },
+  "codex": {
+    "enabled": false,
+    "command": [
+      "codex",
+      "-a",
+      "never",
+      "exec",
+      "--sandbox",
+      "read-only",
+      "--skip-git-repo-check",
+      "-o",
+      "{response}",
+      "-"
+    ],
+    "response": "file"
+  },
+  "kimi": {
+    "enabled": false,
+    "command": [],
+    "response": "stdout",
+    "note": "先配置禁用工具的官方 profile 或隔离包装器。--print 可能自动批准工具，本模板不默认启用。"
+  },
+  "workbuddy": {
+    "enabled": false,
+    "command": [],
+    "response": "stdout",
+    "note": "未确认桌面 WorkBuddy 的稳定无头调用接口。保留人工入口；有受支持 CLI/API 包装器后再启用。"
+  }
+}
